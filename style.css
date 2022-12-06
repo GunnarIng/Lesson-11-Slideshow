@@ -1,0 +1,27 @@
+
+
+.slideshow {
+    position: relative;
+    
+}
+
+
+
+.slideshow img{
+    opacity: 0;
+    transition: opacity 900ms;
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.slideshow img.visible {
+    opacity: 1;
+    
+  }
+
